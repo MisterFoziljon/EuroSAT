@@ -28,45 +28,45 @@ Dataset parametrlari:
 #### 2. Loyihani yuklab olish uchun quyidagi ketma-ketlikni bajaring:
   * `windows+R` klavishlarini bosing va paydo bo'lgan oynaga `cmd` buyrug'ini yozing OK tugmachasini bosing.
   
-  ![cmd](https://github.com/MisterFoziljon/Fashion-MNIST/blob/main/rasmlar/cmd.png)
+  ![cmd](https://github.com/MisterFoziljon/EuroSAT/blob/main/rasmlar/cmd.png)
 
   * Loyihani quyidagi link yordamida yuklab oling. (Loyiha uchun yaratilgan fayl adresni o'zingiz ko'rsatishingiz mumkin)
 
-        C:\> git clone https://github.com/MisterFoziljon/CATS_vs_DOGS.git
+        C:\> git clone https://github.com/MisterFoziljon/EuroSAT.git
 
   * Loyiha joylashgan faylga kiring.
          
-        C:\> cd CATS_vs_DOGS
+        C:\> cd EuroSAT
 
 
 #### 3. Proyektni ishlatish uchun kerakli modullarni virtual environment yaratib o'rnatib oling.
 * O'zingizdagi pip ni so'nggi versiyasiga yangilang.
 
-        C:\CATS_vs_DOGS> python -m pip install --upgrade pip
+        C:\EuroSAT> python -m pip install --upgrade pip
         
 * virtual environment yaratish uchun virtualenv modulini o'rnating.
         
-        C:\CATS_vs_DOGS> python -m pip install --user virtualenv
+        C:\EuroSAT> python -m pip install --user virtualenv
 
 * Yangi environment yaratish uchun unga nom bering.
         
-        C:\CATS_vs_DOGS> python -m venv sizning_env
+        C:\EuroSAT> python -m venv sizning_env
         
 * Virtual environmentni ishga tushiring(aktivlashtiring).
         
-        C:\CATS_vs_DOGS> sizning_env\Scripts\activate.bat
+        C:\EuroSAT> sizning_env\Scripts\activate.bat
         
 * Virtual environment ichiga loyiha ishlashi uchun kerakli bo'lgan modullarni o'rnating (requirements.txt faylining ichida barchasi mavjud).
         
-        (sizning_env) C:\CATS_vs_DOGS> pip install -r requirements.txt
+        (sizning_env) C:\EuroSAT> pip install -r requirements.txt
 
 
 #### 4. Proyektni ishlatish uchun jupyter notebook ni ishga tushiring.
 
-        (sizning_env) C:\CATS_vs_DOGS> jupyter notebook
+        (sizning_env) C:\EuroSAT> jupyter notebook
         
   * ```Cats vs Dogs.ipynb``` ni ishga tushiring. 
-  * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [cats_vs_dogs](https://www.tensorflow.org/datasets/catalog/cats_vs_dogs?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. 
+  * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. 
   * Dataset yordamida Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan. Model fayl ko'rinishida saqlanadi. 
   * Notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan. 
   * [Modelni yuklab olish](https://drive.google.com/drive/folders/1xEv6qVREdSjaw07oVx-wjVCKkymufu2g?usp=share_link)
@@ -74,14 +74,14 @@ Dataset parametrlari:
 
 #### 5. Proyektni streamlit yordamida deploy qilish.
 
-        (sizning_env) C:\CATS_vs_DOGS> streamlit run streamlit.py
+        (sizning_env) C:\EuroSAT> streamlit run streamlit.py
 
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
 
-![streamlit1](https://github.com/MisterFoziljon/CATS_vs_DOGS/blob/main/rasmlar/streamlit1.png)
+![streamlit1](https://github.com/MisterFoziljon/EuroSAT/blob/main/rasmlar/streamlit1.png)
   
   * Rasm faylini yuklab oling va ```Predict``` tugmachasini bosing. Model yuklab olingan tasvirni qaysi turkumga tegishli ekanligini bashorat qiladi. Bundan tashqari softmaxdan chiqqan ehtimollik natijasi ham ekranga chiqadi.
 
 
-![streamlit3](https://github.com/MisterFoziljon/CATS_vs_DOGS/blob/main/rasmlar/streamlit2.png)
+![streamlit3](https://github.com/MisterFoziljon/EuroSAT/blob/main/rasmlar/streamlit2.png)
