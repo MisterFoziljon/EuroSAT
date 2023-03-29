@@ -7,9 +7,18 @@
 #### 1. ```EuroSAT``` dataseti haqida qisqacha ma'lumot
 ```EuroSAT``` dataseti Sentinel-2 sun'iy yo'ldoshi yordamida tasvirga olingan yerning turli hududlari va qoplamalaridagi 80x80x3 
 o'lchamli rasmlar to'plamidan iborat. Ushbu dataset 13 ta spektral diapazonga ega bo'lib, quyidagi 10 ta sinfni o'z ichiga qamrab oladi:
+1. AnnualCrop
+2. Pasture
+3. River
+4. HerbaceousVegetation
+5. Highway
+6. SeaLake
+7. Residential
+8. PermanentCrop
+9. Industrial
+10. Forest
 
-
-```EuroSAT``` dataseti . Dataset parametrlari:
+Dataset parametrlari:
 
 * Versiya: 2.0.0 
 * Manba: https://www.tensorflow.org/datasets/catalog/eurosat
