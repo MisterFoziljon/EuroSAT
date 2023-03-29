@@ -65,7 +65,7 @@ Dataset parametrlari:
 
         (sizning_env) C:\EuroSAT> jupyter notebook
         
-  * ```Cats vs Dogs.ipynb``` ni ishga tushiring. 
+  * ```Eurosat.ipynb``` ni ishga tushiring. 
   * Usbu notebookda [Tensorflow.org](https://www.tensorflow.org/) saytidagi [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat?hl=ru) datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. 
   * Dataset yordamida Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan. Model fayl ko'rinishida saqlanadi. 
   * Notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan. 
@@ -79,9 +79,9 @@ Dataset parametrlari:
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
 
-![streamlit1](https://github.com/MisterFoziljon/EuroSAT/blob/main/rasmlar/streamlit1.png)
+![streamlit1](https://github.com/MisterFoziljon/EuroSAT/blob/main/rasmlar/streamlit2.png)
   
   * Rasm faylini yuklab oling va ```Predict``` tugmachasini bosing. Model yuklab olingan tasvirni qaysi turkumga tegishli ekanligini bashorat qiladi. Bundan tashqari softmaxdan chiqqan ehtimollik natijasi ham ekranga chiqadi.
 
 
-![streamlit3](https://github.com/MisterFoziljon/EuroSAT/blob/main/rasmlar/streamlit2.png)
+![streamlit3](https://github.com/MisterFoziljon/EuroSAT/blob/main/rasmlar/streamlit1.png)
